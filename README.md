@@ -83,7 +83,7 @@ AI-Document-QA-Chatbot/
 ├── frontend/
 │   ├── app.py
 │── requirements.txt
-├── .env
+├── .venv
 ├── README.md
 
 
