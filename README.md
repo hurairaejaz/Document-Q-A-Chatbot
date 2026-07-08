@@ -72,25 +72,20 @@ An intelligent Document Question-Answering application that enables users to upl
 AI-Document-QA-Chatbot/
 │
 ├── backend/
-│   ├── app.py
+│   ├── database.py
 │   ├── config.py
-│   ├── requirements.txt
-│   ├── uploads/
-│   ├── vectorstore/
-│   ├── services/
-│   │   ├── document_processor.py
-│   │   ├── embeddings.py
-│   │   ├── qa_service.py
-│   │   └── vector_store.py
-│   └── utils/
-│
+|   ├── embeddings.py
+│   ├── llm.py
+|   ├── pdf_loader.py
+│   ├── rag.py
+├── uploads/
+├── chroma_db/
 ├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
+│   ├── app.py
+│── requirements.txt
 ├── .env
 ├── README.md
+
 
 ```
 
